@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <maeta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Guessing game</h1>
+    <div id="timecount"></div>
+    <div id="turnLeftDisplay"></div>
+    <input type="number" id="userInput" min="1" max="10"/>
+    <button onclick="guess()" id="guessButton">Guess</button>
+    <button onclick="reset()">Reset</button>
+    <div id="resultArea"></div>
+    <div id="historyDisplay"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
